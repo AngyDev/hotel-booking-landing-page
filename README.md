@@ -1,1 +1,3 @@
-# hotel-booking-landing-page
+# Hotel Booking Landing Page
+
+## Work in Progress
