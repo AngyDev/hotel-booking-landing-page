@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Mulish;
+    src: url(img/font/Mulish-Medium.ttf);
+}
+
+:root {
+    --website-color: #0A223D;
+    --background-color: #F5FAFE;
+    --font-color: #333333;
+}
+
+body {
+    width: 1440px;
+    margin: 0;
+    font-family: Mulish, sans-serif;
+    background-color: var(--background-color);
+}
+
+
+/****************** NAVBAR-TOP ******************/
+
+.navbar-top {
+    height: 60px;
+    color: var(--font-color);
+    font-size: 10px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.need-help {
+    margin-left: 165px;
+}
+
+.navbar-icon {
+    margin-right: 20px;
+    width: 18px;
+    height: 18px;
+}
+
+.gift-card {
+    display: flex;
+    width: 102px;
+    height: 18px;
+    margin-left: 549px;
+}
+
+.gift {
+    width: 64px;
+    height: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.program {
+    display: flex;
+    width: 115px;
+    height: 18px;
+    margin: 0 168px 0 98px;
+}
+
+.loyalty {
+    width: 77px;
+    height: 13px;
+    display: flex;
+    align-items: center;
+}
+
+
+/****************** NAVBAR ******************/
+
+nav {
+    background-color: white;
+    height: 120px;
+}
