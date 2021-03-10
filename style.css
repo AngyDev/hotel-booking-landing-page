@@ -68,9 +68,72 @@ body {
 }
 
 
-/****************** NAVBAR ******************/
+/****************** NAVBAR-SEARCH ******************/
 
-nav {
+.navbar-search {
     background-color: white;
     height: 120px;
 }
+
+.navbar-container {
+    height: 120px;
+    margin: 0 165px 0 165px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 350px;
+}
+
+.search-input {
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-color);
+    border-radius: 6px;
+    border: none;
+}
+
+.search-btn {
+    height: 100%;
+    width: 65px;
+    background: #EC1F46;
+    border-radius: 0px 6px 6px 0px;
+    float: right;
+    border: none;
+}
+
+.cart-icon {
+    width: 34px;
+    height: 34px;
+    display: flex;
+}
+
+.profile {
+    display: flex;
+    width: 150px;
+}
+
+.profile>img {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin-right: 18px;
+}
+
+.profile-name {
+    display: flex;
+    align-items: center;
+    margin-right: 19px;
+}
+
+.profile-name>img {
+    margin-left: 19px;
+}
+
+
+/****************** NAVBAR ******************/
