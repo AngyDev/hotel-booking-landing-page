@@ -174,9 +174,10 @@ nav {
 /****************** HOTEL-NAME ******************/
 
 .hotel-name {
-    height: 50px;
+    height: 100px;
     margin: 0 165px 0 165px;
     display: flex;
+    align-items: center;
 }
 
 .hotel-name-container {
@@ -249,4 +250,111 @@ nav {
     font-weight: bold;
     font-size: 14px;
     line-height: 18px;
+}
+
+
+/****************** HOTEL-CONTAINER ******************/
+
+.hotel-container {
+    height: 450px;
+    margin: 0 165px 0 165px;
+    display: flex;
+}
+
+.hotel-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.booking {
+    width: 350px;
+    height: 210px;
+    border-radius: 8px;
+    margin-bottom: 27px;
+    background-color: var(--website-color);
+    display: flex;
+    align-items: flex-start;
+    color: #FFFFFF;
+}
+
+.booking-info {
+    width: 295px;
+    height: 155px;
+    margin: 29px 29px 26px 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.price-info {
+    height: 86px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+}
+
+.price>span:nth-child(1) {
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.price>span:nth-child(2) {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.price>span:nth-child(3) {
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.person-room {
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.person-room>span>img {
+    margin-right: 9px;
+}
+
+.quick-booking {
+    height: 25px;
+    margin: 9px 0 17px 0;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.call-number>img {
+    margin-right: 8px;
+}
+
+.booking-info-btn>button {
+    width: 295px;
+    height: 45px;
+    border: none;
+    background: #EC1F46;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.map {
+    height: 213px;
+    width: 347px;
+    display: flex;
+    align-items: flex-end;
 }
