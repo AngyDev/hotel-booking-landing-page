@@ -7,6 +7,7 @@
     --website-color: #0A223D;
     --background-color: #F5FAFE;
     --font-color: #333333;
+    --font-second-color: #EC1F46;
 }
 
 body {
@@ -101,7 +102,7 @@ form {
 .search-btn {
     height: 100%;
     width: 65px;
-    background: #EC1F46;
+    background: var(--font-second-color);
     border-radius: 0px 6px 6px 0px;
     float: right;
     border: none;
@@ -199,7 +200,7 @@ nav {
     align-self: center;
     width: 70px;
     height: 20px;
-    background: #EC1F46;
+    background: var(--font-second-color);
     border-radius: 3px;
     color: white;
     font-weight: 600;
@@ -234,7 +235,7 @@ nav {
     align-items: center;
     width: 65px;
     height: 45px;
-    background: #EC1F46;
+    background: var(--font-second-color);
     border-radius: 4px;
     margin: 0 0 0 auto;
     color: #FFFFFF;
@@ -345,7 +346,7 @@ nav {
     width: 295px;
     height: 45px;
     border: none;
-    background: #EC1F46;
+    background: var(--font-second-color);
     border-radius: 4px;
     font-size: 14px;
     line-height: 19px;
@@ -357,4 +358,35 @@ nav {
     width: 347px;
     display: flex;
     align-items: flex-end;
+}
+
+
+/****************** CARDS-MENU ******************/
+
+.cards-menu-list {
+    height: 35.32px;
+    margin: 0 165px 0px 165px;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--font-color);
+    line-height: 18px;
+    list-style-type: none;
+}
+
+.menu-summery {
+    color: var(--font-second-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.rectangle {
+    width: 130px;
+    height: 4px;
+    margin-top: 14px;
+    background: var(--font-second-color);
 }
