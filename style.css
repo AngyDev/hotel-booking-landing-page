@@ -161,11 +161,17 @@ nav {
 }
 
 
+/****************** SECTION ******************/
+
+section {
+    margin: 0 165px 0 165px;
+}
+
+
 /****************** BREAD-CRUMB ******************/
 
 .bread-crumb {
     height: 50px;
-    margin: 0 165px 0 165px;
     display: flex;
     align-items: center;
     font-size: 10px;
@@ -177,7 +183,6 @@ nav {
 
 .hotel-name {
     height: 100px;
-    margin: 0 165px 0 165px;
     display: flex;
     align-items: center;
 }
@@ -259,8 +264,8 @@ nav {
 
 .hotel-container {
     height: 450px;
-    margin: 0 165px 67.68px 165px;
     display: flex;
+    margin-bottom: 67.68px;
 }
 
 .hotel-info {
@@ -366,7 +371,7 @@ nav {
 
 .cards-menu-list {
     height: 35.32px;
-    margin: 0 165px 40px 165px;
+    margin-bottom: 40px;
     height: 100%;
     padding: 0;
     display: flex;
@@ -396,7 +401,6 @@ nav {
 /****************** PACKAGE-SUMMERY ******************/
 
 .package-summery {
-    margin: 0 165px 0px 165px;
     height: 842px;
 }
 
@@ -532,7 +536,7 @@ nav {
 /****************** OTHER-PACKAGES ******************/
 
 .other-packages {
-    margin: 65px 165px 0px 165px;
+    margin-top: 65px;
     height: 1250px;
 }
 
@@ -669,7 +673,6 @@ nav {
 /****************** GUEST-REVIEW ******************/
 
 .guest-review {
-    margin: 0px 165px 0px 165px;
     height: 550px;
     display: flex;
     align-items: center;
@@ -687,7 +690,6 @@ nav {
     width: 731px;
     height: 325px;
     margin-top: 70px;
-    border: 1px solid;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -828,7 +830,6 @@ nav {
 
 .other-activities {
     height: 500px;
-    margin: 0 165px 0 165px;
 }
 
 .other-activities-title {
