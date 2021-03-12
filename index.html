@@ -28,7 +28,7 @@
         <div class="navbar-search">
             <div class="navbar-search-container">
                 <img src="img/best_tour_plan.svg" alt="Best Tour Plan">
-                <form action="#">
+                <form class="navbar-form" action="#">
                     <label for="search-bar"></label>
                     <input type="text" name="search" class="search-input" placeholder="Search Location">
                     <button class="search-btn" type="submit"><img src="img/search.svg" alt="search"></button>
@@ -520,7 +520,7 @@
                             <span>subscribe to our</span>
                             <span>NEWSLETTER</span>
                         </div>
-                        <form action="#">
+                        <form class="newsletter-form" action="#">
                             <label for="email"></label>
                             <input type="text" name="email" class="email-input" placeholder="Your email address">
                             <button class="email-btn" type="submit">Send</button>
@@ -587,8 +587,8 @@
                 </div>
                 <div class="footer-top">
                     <div class="footer-top-container-text">
-                        <span>ALL CATEGORIES</span>
-                        <ul class="footer-top-list">
+                        <span class="footer-title">ALL CATEGORIES</span>
+                        <ul class="footer-top-list footer-body">
                             <li>All Deals</li>
                             <li>Hotels</li>
                             <li>Activities</li>
@@ -602,8 +602,8 @@
                 </div>
                 <div class="footer-top">
                     <div class="footer-top-container-text">
-                        <span>ADDITIONAL INFORMATION</span>
-                        <ul class="footer-top-list">
+                        <span class="footer-title">ADDITIONAL INFORMATION</span>
+                        <ul class="footer-top-list footer-body">
                             <li>About Us</li>
                             <li>Contact Us</li>
                             <li>How does it work?</li>
@@ -624,8 +624,8 @@
 
                 <div class="footer-top item4">
                     <div class="footer-top-container-text">
-                        <span>LEGAL INFORMATION</span>
-                        <ul class="footer-top-list">
+                        <span class="footer-title">LEGAL INFORMATION</span>
+                        <ul class="footer-top-list footer-body">
                             <li>Terms & Conditions</li>
                             <li>Disclaimer</li>
                             <li>Cancellation policy</li>
@@ -635,13 +635,51 @@
                 </div>
 
                 <div class="footer-contact1">
-                    <span>CONTACT DETAILS</span>
+                    <div class="contact1-container">
+                        <span class="footer-title">CONTACT DETAILS</span>
+                        <br>
+                        <span class="footer-body">Feel free to contact us by phone, email or by out contact form</span>
+                        <div class="footer-contact-body-container footer-body">
+                            <div class="footer-contact-body ">
+                                <img src="img/ic_round-location-on.svg" alt="">
+                                <span>9748 Blossom Hill Rd undefined Lansing, Idaho 68545 United States</span>
+                            </div>
+                            <div class="footer-contact-body">
+                                <img src="img/bx_bxs-phone-call.svg" alt="">
+                                <span class="phone-text">Tel (business hours) : 269 1500 Tel (hotline) Monday -
+                                    Saturday:
+                                    52-56-61-38 (08:00 am
+                                    –
+                                    20:00
+                                    pm) Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)
+                                </span>
+                            </div>
+                            <div class="footer-contact-body">
+                                <img src="img/ic_round-email.svg" alt="">
+                                <span> cherly.lawson@example.com</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="footer-contact2"></div>
+
+                <div class="footer-contact2">
+                    <span class="footer-title">SEND US A MESSAGE</span>
+                    <form action="#" class="footer-form">
+                        <div class="contact">
+                            <input type="text" placeholder="Your Full Name">
+                            <input type="text" placeholder="Phone number">
+                        </div>
+                        <div>
+                            <input id="message" type="text" placeholder="Message">
+                        </div>
+                        <div class="send">
+                            <button id="send-btn" type="submit">Send</button>
+                            <span>*Required Fields</span>
+                        </div>
+                    </form>
+                </div>
             </div>
-
             <div class="footer-bottom">
-
             </div>
         </div>
     </main>
