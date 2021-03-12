@@ -1,6 +1,6 @@
 # Hotel Booking Landing Page
 
-This is a non interactive hotel booking landing page. 
+This is not an interactive hotel booking landing page. 
 
 ## Table of contents
 * [General info](#general-info)
