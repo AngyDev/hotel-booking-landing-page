@@ -696,6 +696,15 @@ section {
     align-items: center;
 }
 
+.arrows {
+    width: 1074px;
+    height: 30px;
+    top: 3448px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
 .profile-card {
     width: 97px;
     height: 149px;
