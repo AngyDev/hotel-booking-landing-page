@@ -18,7 +18,7 @@ It's a simple example to learn how to use flexbox positiong and grid template al
 
 If you want to look the site click the [link](https://hotelbookinglandingpage.netlify.app/)
 
-![Hotel Booking](img/hotel_booking.JPG "Hotel Booking")
+![Hotel Booking](img/screenshot/20210315_101800.gif "Hotel Booking")
 
 ## Technologies
 
