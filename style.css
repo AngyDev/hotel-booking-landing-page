@@ -521,16 +521,13 @@ nav {
     font-weight: 600;
 }
 
+.under-line {
+    margin-top: 75px;
+}
+
 .line {
     width: 1048px;
     border: 1px dashed #E0E0E0;
-}
-
-.package-details-bottom {
-    margin-top: 32px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 
